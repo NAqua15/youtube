@@ -27,13 +27,13 @@ main {
 
 .video-container {
   display: flex;
-  flex-wrap: nowrap; /* Prevent wrapping to multiple lines */
-  overflow-x: auto; /* Add horizontal scrollbar if needed */
+  flex-wrap: nowrap;  
+  overflow-x: auto;  
 }
 
 .video {
-  flex: 0 0 10px; /* Set a fixed width for each container */
-  margin-right: 10px; /* Add a small margin between containers */
+  flex: 0 0 10px; 
+  margin-right: 10px;  
   padding: 20px;
   background-color: #f4f4f4;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
