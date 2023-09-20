@@ -1,0 +1,49 @@
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #FF0000;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+main {
+  max-width: 1200px;
+  
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.video-container {
+  display: flex;
+  flex-wrap: nowrap; /* Prevent wrapping to multiple lines */
+  overflow-x: auto; /* Add horizontal scrollbar if needed */
+}
+
+.video {
+  flex: 0 0 10px; /* Set a fixed width for each container */
+  margin-right: 10px; /* Add a small margin between containers */
+  padding: 20px;
+  background-color: #f4f4f4;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
